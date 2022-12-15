@@ -1,0 +1,1 @@
+arrayRankTransform =  (a, map = {},v=[...new Set(a)].sort((a, b) => a - b).map((v, idx) => { map[v] = idx + 1 })) => [...a.map((v) => map[v])]
